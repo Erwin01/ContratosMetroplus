@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ContratosGeneralModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Personas">
+          <Key>
+            <PropertyRef Name="IdContrato" />
+          </Key>
+          <Property Name="IdContrato" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NumContrato" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ModalidadSeleccion" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Procedimiento" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ClaseContrato" Type="varchar(max)" Nullable="false" />
+          <Property Name="TipoGasto" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="SectorCorrespondiente" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ObjetoContrato" Type="varchar" MaxLength="256" Nullable="false" />
+          <Property Name="ValorInicial" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CedulaContratista" Type="int" Nullable="false" />
+          <Property Name="NombreCompletoContratista" Type="varchar(max)" Nullable="false" />
+          <Property Name="TipoPersona" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="FechaSuscripcion" Type="date" Nullable="false" />
+          <Property Name="CedulaInterventor" Type="int" Nullable="false" />
+          <Property Name="NombreCompletoInterventor" Type="varchar(max)" Nullable="false" />
+          <Property Name="TipoVinculacionInterventor" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="UnidadEjecucion" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="NumeroUnidadesEjecucion" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PactoAnticipo" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="ValorAnticipo" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="FiduciaMercantil" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="FechaInicioContrato" Type="date" Nullable="false" />
+          <Property Name="FechaTerminacionContrato" Type="date" Nullable="false" />
+          <Property Name="PublicacionSecop" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="ContratosGeneralModelStoreContainer">
+          <EntitySet Name="Personas" EntityType="Self.Personas" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ContratosGeneralModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Personas">
+          <Key>
+            <PropertyRef Name="IdContrato" />
+          </Key>
+          <Property Name="IdContrato" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NumContrato" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ModalidadSeleccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Procedimiento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ClaseContrato" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TipoGasto" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SectorCorrespondiente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ObjetoContrato" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ValorInicial" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CedulaContratista" Type="Int32" Nullable="false" />
+          <Property Name="NombreCompletoContratista" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TipoPersona" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FechaSuscripcion" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="CedulaInterventor" Type="Int32" Nullable="false" />
+          <Property Name="NombreCompletoInterventor" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TipoVinculacionInterventor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UnidadEjecucion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NumeroUnidadesEjecucion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PactoAnticipo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ValorAnticipo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FiduciaMercantil" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FechaInicioContrato" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="FechaTerminacionContrato" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="PublicacionSecop" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="EntidadesContrato" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Personas" EntityType="Self.Personas" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ContratosGeneralModelStoreContainer" CdmEntityContainer="EntidadesContrato">
+          <EntitySetMapping Name="Personas">
+            <EntityTypeMapping TypeName="ContratosGeneralModel.Personas">
+              <MappingFragment StoreEntitySet="Personas">
+                <ScalarProperty Name="IdContrato" ColumnName="IdContrato" />
+                <ScalarProperty Name="NumContrato" ColumnName="NumContrato" />
+                <ScalarProperty Name="ModalidadSeleccion" ColumnName="ModalidadSeleccion" />
+                <ScalarProperty Name="Procedimiento" ColumnName="Procedimiento" />
+                <ScalarProperty Name="ClaseContrato" ColumnName="ClaseContrato" />
+                <ScalarProperty Name="TipoGasto" ColumnName="TipoGasto" />
+                <ScalarProperty Name="SectorCorrespondiente" ColumnName="SectorCorrespondiente" />
+                <ScalarProperty Name="ObjetoContrato" ColumnName="ObjetoContrato" />
+                <ScalarProperty Name="ValorInicial" ColumnName="ValorInicial" />
+                <ScalarProperty Name="CedulaContratista" ColumnName="CedulaContratista" />
+                <ScalarProperty Name="NombreCompletoContratista" ColumnName="NombreCompletoContratista" />
+                <ScalarProperty Name="TipoPersona" ColumnName="TipoPersona" />
+                <ScalarProperty Name="FechaSuscripcion" ColumnName="FechaSuscripcion" />
+                <ScalarProperty Name="CedulaInterventor" ColumnName="CedulaInterventor" />
+                <ScalarProperty Name="NombreCompletoInterventor" ColumnName="NombreCompletoInterventor" />
+                <ScalarProperty Name="TipoVinculacionInterventor" ColumnName="TipoVinculacionInterventor" />
+                <ScalarProperty Name="UnidadEjecucion" ColumnName="UnidadEjecucion" />
+                <ScalarProperty Name="NumeroUnidadesEjecucion" ColumnName="NumeroUnidadesEjecucion" />
+                <ScalarProperty Name="PactoAnticipo" ColumnName="PactoAnticipo" />
+                <ScalarProperty Name="ValorAnticipo" ColumnName="ValorAnticipo" />
+                <ScalarProperty Name="FiduciaMercantil" ColumnName="FiduciaMercantil" />
+                <ScalarProperty Name="FechaInicioContrato" ColumnName="FechaInicioContrato" />
+                <ScalarProperty Name="FechaTerminacionContrato" ColumnName="FechaTerminacionContrato" />
+                <ScalarProperty Name="PublicacionSecop" ColumnName="PublicacionSecop" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

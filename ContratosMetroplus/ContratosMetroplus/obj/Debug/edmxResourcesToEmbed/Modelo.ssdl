@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ContratosGeneralModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Personas">
+    <Key>
+      <PropertyRef Name="IdContrato" />
+    </Key>
+    <Property Name="IdContrato" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NumContrato" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ModalidadSeleccion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Procedimiento" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ClaseContrato" Type="varchar(max)" Nullable="false" />
+    <Property Name="TipoGasto" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="SectorCorrespondiente" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ObjetoContrato" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="ValorInicial" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="CedulaContratista" Type="int" Nullable="false" />
+    <Property Name="NombreCompletoContratista" Type="varchar(max)" Nullable="false" />
+    <Property Name="TipoPersona" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="FechaSuscripcion" Type="date" Nullable="false" />
+    <Property Name="CedulaInterventor" Type="int" Nullable="false" />
+    <Property Name="NombreCompletoInterventor" Type="varchar(max)" Nullable="false" />
+    <Property Name="TipoVinculacionInterventor" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UnidadEjecucion" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="NumeroUnidadesEjecucion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PactoAnticipo" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="ValorAnticipo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FiduciaMercantil" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaInicioContrato" Type="date" Nullable="false" />
+    <Property Name="FechaTerminacionContrato" Type="date" Nullable="false" />
+    <Property Name="PublicacionSecop" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ContratosGeneralModelStoreContainer">
+    <EntitySet Name="Personas" EntityType="Self.Personas" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,45 @@
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\ContratosMetroplus.exe.config
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\ContratosMetroplus.exe
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\ContratosMetroplus.pdb
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\EntityFramework.dll
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\EntityFramework.xml
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.FormularioContratos.resources
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.Properties.Resources.resources
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.csproj.GenerateResource.Cache
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.exe
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.pdb
+C:\Users\5H4CK0X\documents\visual studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.csprojResolveAssemblyReference.cache
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\ContratosMetroplus.exe.config
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\ContratosMetroplus.exe
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\ContratosMetroplus.pdb
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\EntityFramework.dll
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\EntityFramework.xml
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.FormularioContratos.resources
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.Properties.Resources.resources
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.csproj.GenerateResource.Cache
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.exe
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.pdb
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.csprojResolveAssemblyReference.cache
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.Reportes.resources
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.FrmReporte.resources
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\ReporteContratos.rpt
+C:\Users\Llanero\Documents\Visual Studio 2013\Projects\ContratosMetroplus\ContratosMetroplus\bin\Debug\ReporteContratos.cs
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\bin\Debug\ReporteContratos.rpt
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\bin\Debug\ReporteContratos.cs
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\bin\Debug\ContratosMetroplus.exe.config
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\bin\Debug\ContratosMetroplus.exe
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\bin\Debug\ContratosMetroplus.pdb
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\bin\Debug\EntityFramework.dll
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\bin\Debug\ShockwaveFlashObjects.dll
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\bin\Debug\stdole.dll
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\bin\Debug\EntityFramework.xml
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.csproj.AssemblyReference.cache
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.FormularioContratos.resources
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.FrmReporte.resources
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.Properties.Resources.resources
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.Reportes.resources
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.csproj.GenerateResource.cache
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.csproj.CoreCompileInputs.cache
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.csproj.CopyComplete
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.exe
+D:\Videos Develop 2022-23\Desarrollos viejos\ContratosMetroplus\ContratosMetroplus\obj\Debug\ContratosMetroplus.pdb
