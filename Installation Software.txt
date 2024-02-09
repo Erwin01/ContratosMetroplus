@@ -1,0 +1,4 @@
+Descargar Microsoft Crystal Reports, version for Microsoft Visual Studio V. 13.0.29.3671
+Descargar SAP Crystal Reports, runtime engine for .Net Framework V. 13.0.12.1494
+
+Link - https://stackoverflow.com/questions/11673383/error-could-not-load-log4net-assembly
